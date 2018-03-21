@@ -195,7 +195,9 @@ class Browser(webdriver.Chrome):
         self.browser_pool.browsers.remove(self)
 
     def browser_amount(self):
-        c_out('当前浏览器数量 : {}'.format(len(self.browser_pool.browsers)))
+        amount = len(self.browser_pool.browsers)
+        c_out('当前浏览器数量 : {}'.format(amount))
+        return amount
 
 def c_out(*args):
     if not log_silence:
