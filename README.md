@@ -1,6 +1,6 @@
 # BrowserPool
 A very good BrowserPool, try to use it & you will fall in love with it.<br/>
-一个非常好用的浏览器池, 试着用她, 接着你便会爱上她。<br/>
+一个非常好用的浏览器池。<br/>
 <br/>
 基于Python的自动管理浏览器池，黑盒使用，不需要关心内部实现，只需 申请-使用-释放-关闭 即可。<br/>
 基于Selenium-Chrome，具有内存优化、浏览器数量控制、最小化/有/无头显示、懒加载、图片有/无加载、软关闭、输出调试等功能，源码力求简单清晰，方便修改与使用。<br/>
