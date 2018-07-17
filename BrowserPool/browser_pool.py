@@ -5,6 +5,16 @@ from queue import Queue, Empty
 import psutil as psutil
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
+'''
+ * -------------------------------------------------
+ * * Browser_Pool
+   * @discribe : Browser Pool
+   *
+   * @author : Ma Xuefeng
+   * @date : 2018/3/28
+ * -------------------------------------------------
+'''
 #============= Object ======================
 browser_pool = None # Browser Pool Object
 #============= Config ======================
